@@ -1,0 +1,51 @@
+.options {
+	padding: 8px 0 16px;
+	/* background-color: rgb(115, 236, 161); */
+	border-bottom: 1px solid #ebebeb;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+
+	@media (max-width: 992px) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.listing {
+}
+
+.listing__desc {
+	padding: 40px 0 24px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #6b7280;
+}
+
+.listingItems {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
+.listingItems > * {
+	margin-top: 24px;
+}
+
+.listingItems > * {
+	position: relative;
+}
+
+.listingItems > *::after {
+	content: "";
+	position: absolute;
+	top: -24px;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #e5e7eb;
+}

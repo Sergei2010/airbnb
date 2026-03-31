@@ -1,0 +1,65 @@
+[
+	{
+		"id": "bordeaux-getaway",
+		"image": "/img/listing/01.jpg",
+		"image2x": "/img/listing/01@2x.jpg",
+		"subtitle": "Entire home in Bordeaux",
+		"title": "Bordeaux Getaway",
+		"details": [
+			"4-6 guests",
+			"Entire Home",
+			"5 beds",
+			"3 bath",
+			"Wifi",
+			"Kitchen",
+			"Free Parking"
+		],
+		"rating": 5.0,
+		"reviews": 318,
+		"pricePerNight": 325,
+		"currency": "USD",
+		"isFavorite": false
+	},
+	{
+		"id": "charming-waterfront-condo",
+		"image": "/img/listing/02.jpg",
+		"image2x": "/img/listing/02@2x.jpg",
+		"subtitle": "Entire home in Bordeaux",
+		"title": "Charming Waterfront Condo",
+		"details": [
+			"4-6 guests",
+			"Entire Home",
+			"5 beds",
+			"3 bath",
+			"Wifi",
+			"Kitchen",
+			"Free Parking"
+		],
+		"rating": 5.0,
+		"reviews": 318,
+		"pricePerNight": 200,
+		"currency": "USD",
+		"isFavorite": true
+	},
+	{
+		"id": "historic-city-center-home",
+		"image": "/img/listing/03.jpg",
+		"image2x": "/img/listing/03@2x.jpg",
+		"subtitle": "Entire home in Bordeaux",
+		"title": "Historic City Center Home",
+		"details": [
+			"4-6 guests",
+			"Entire Home",
+			"5 beds",
+			"3 bath",
+			"Wifi",
+			"Kitchen",
+			"Free Parking"
+		],
+		"rating": 5.0,
+		"reviews": 318,
+		"pricePerNight": 125,
+		"currency": "USD",
+		"isFavorite": false
+	}
+]
